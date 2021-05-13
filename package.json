@@ -1,0 +1,40 @@
+{
+  "name": "run-my-code",
+  "version": "1.0.0",
+  "description": "Execute javascript code from a string based on new function.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varHarrie/run-my-code.git"
+  },
+  "keywords": [
+    "eval",
+    "execute",
+    "run",
+    "code",
+    "function"
+  ],
+  "author": "varHarrie<varharrie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varHarrie/run-my-code/issues"
+  },
+  "homepage": "https://github.com/varHarrie/run-my-code#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  }
+}
